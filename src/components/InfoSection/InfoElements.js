@@ -2,14 +2,15 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
     color:#fff;
-    background:${({lightBg}) => (lightBg?'#fff':'linear-gradient(180deg, #000000 21%, #303030 100%, #7f8c8d 71%)')};
+    background:${({lightBg}) => (lightBg?'#fff':'linear-gradient(0deg, #000000 21%,#0f0d21 70%)')};
    
     @media screen and (max-width:768px){
         padding:100px 0;
     }
 
 `;
-
+// #0f0d21 no-repeat
+// linear-gradient(180deg, #000000 21%, #303030 100%, #7f8c8d 71%)
 export const InfoWrapper = styled.div`
     display:grid;
     z-index:1;
@@ -65,9 +66,10 @@ export const TopLine = styled.p`
 export const Heading = styled.h1`
    color:#BEBEBE;
    margin-bottom: 24px;
-   font-size: 48px;
+   font-size: 40px;
    line-height: 1.1;
-   font-weight: 600;
+   font-weight: 400;
+   font-family: fantasy;
    color:${({lightText}) => (lightText?'#f7f8fa':'#010606')};
 
    @media screen and (max-width:480px){
@@ -80,6 +82,7 @@ export const Subtitle = styled.p`
    margin-bottom:35px;
    font-size:18px;
    line-height:24px;
+   text-align: center;
    color:${({darkText}) => (darkText? '#010606' : '#fff')};
 `;
 
@@ -91,11 +94,12 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width:600px;
     padding:10px;
 `;
 
 export const Img = styled.img`
    width: 100%;
+   height: 500px;
    padding-right:0;
 `;

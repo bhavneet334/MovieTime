@@ -24,36 +24,39 @@ const Footer = () => {
               <FooterLinksContainer>
                    <FooterLinksWrapper>
                        <FooterLinkItems>
-                           <FooterLinkTitle to='/'>About Us </FooterLinkTitle>
-                                <FooterLink to='/'>Overview</FooterLink>
-                                <FooterLink to='/'>Investor Relations</FooterLink>
-                                <FooterLink to='/'>Online Services</FooterLink>
-                                <FooterLink to='/'>Safe Banking</FooterLink>
-                                <FooterLink to='/'>Careers</FooterLink>
+                           <FooterLinkTitle to='/'>MOVIES BY GENRE</FooterLinkTitle>
+                                <FooterLink to='/'>Drama Movies</FooterLink>
+                                <FooterLink to='/'>Action Movies</FooterLink>
+                                <FooterLink to='/'>Comedy Movies</FooterLink>
+                                <FooterLink to='/'>Thriller Movies</FooterLink>
+                                <FooterLink to='/'>Romantic Movies</FooterLink>
+                                <FooterLink to='/'>War Movies</FooterLink>
                        </FooterLinkItems>
                        <FooterLinkItems>
-                           <FooterLinkTitle to='/'> Popular Products </FooterLinkTitle>
-                                <FooterLink to='/'>Savings Accounts </FooterLink>
-                                <FooterLink to='/'>Credit Cards</FooterLink>
-                                <FooterLink to='/'>Home Laon</FooterLink>
-                                <FooterLink to='/'>Life Insurance </FooterLink>
-                                <FooterLink to='/'>Gold Loan</FooterLink>
+                           <FooterLinkTitle to='/'> MOVIES BY LANGUAGE</FooterLinkTitle>
+                                <FooterLink to='/'>Movies in Hindi</FooterLink>
+                                <FooterLink to='/'>Movies in English</FooterLink>
+                                <FooterLink to='/'>Movies in Telugu</FooterLink>
+                                <FooterLink to='/'>Movies in Tamil</FooterLink>
+                                <FooterLink to='/'>Movies in Marathi</FooterLink>
+                                <FooterLink to='/'>Movies in Bengali</FooterLink>
                        </FooterLinkItems>
                     <FooterLinkItems>
-                       <FooterLinkTitle to='/'> Others </FooterLinkTitle>
-                            <FooterLink to='/'>Customer Care </FooterLink>
-                            <FooterLink to='/'>Form Center</FooterLink>
-                            <FooterLink to='/'>Notice Board</FooterLink>
-                            <FooterLink to='/'> News Room </FooterLink>
-                            <FooterLink to='/'> Site Map </FooterLink>
+                       <FooterLinkTitle to='/'>MOVIE REVIEWS</FooterLinkTitle>
+                            <FooterLink to='/'>Trending Articles</FooterLink>
+                            <FooterLink to='/'>Latest News on Movies</FooterLink>
+                            <FooterLink to='/'>Film Reviews</FooterLink>
+                            <FooterLink to='/'>Guest Blogging</FooterLink>
+                            <FooterLink to='/'> Latest News on Events</FooterLink>
+                            <FooterLink to='/'> Latest News on Plays</FooterLink>
                    </FooterLinkItems>
                    <FooterLinkItems>
                        <FooterLinkTitle to='/'> Resources </FooterLinkTitle>
-                            <FooterLink to='/'> Ways To Bank </FooterLink>
-                            <FooterLink to='/'> We Care For You</FooterLink>
-                            <FooterLink to='/'> Rates </FooterLink>
-                            <FooterLink to='/'> Learning Center </FooterLink>
-                            <FooterLink to='/'> Important Notices </FooterLink>
+                            <FooterLink to='/'> Account</FooterLink>
+                            <FooterLink to='/'> Ways to Watch</FooterLink>
+                            <FooterLink to='/'> Media Center </FooterLink>
+                            <FooterLink to='/'> Terms of Use</FooterLink>
+                            <FooterLink to='/'> Contact Us </FooterLink>
                    </FooterLinkItems>     
                 </FooterLinksWrapper>
               </FooterLinksContainer>

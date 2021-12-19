@@ -28,10 +28,10 @@ const HeroSection = () => {
               <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
            </HeroBg>
            <HeroContent>
-              <HeroH1> Enjoy Financial Success</HeroH1>
+              <HeroH1> It's Movie Time </HeroH1>
 
-              <HeroP> Sign up for a new account today and receive 500$ 
-                   in credit towards your next payment
+              <HeroP> 
+                Watch all your favourite movies at one place, with ease!
               </HeroP>
               <HeroBtnWrapper>
                   <Button to='signup' onMouseEnter={onHover}

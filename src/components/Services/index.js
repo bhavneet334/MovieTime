@@ -19,37 +19,37 @@ import {
 const Services = () => {
     return (
         <ServicesContainer id="services">
-           <ServicesH1> Our Services</ServicesH1>
+           <ServicesH1> Premiere of the Week </ServicesH1>
            <ServicesWrapper>
               <ServicesCard>
                   <ServicesIcon src={Icon1}/>
-                  <ServicesH2>DIGITAL SAVINGS AND SPENDING ACCOUNTS</ServicesH2>
-                  <ServicesP>We help reduce your fees and increase overall revenue</ServicesP>
+                  <ServicesH2>Escape Room</ServicesH2>
+                  <ServicesP>English</ServicesP>
               </ServicesCard>
               <ServicesCard>
                   <ServicesIcon src={Icon2}/>
-                  <ServicesH2>HOME LOANS</ServicesH2>
-                  <ServicesP>Wake up in your dream home with easy to avail Home Loans</ServicesP>
+                  <ServicesH2>Venom</ServicesH2>
+                  <ServicesP>English</ServicesP>
               </ServicesCard>
               <ServicesCard>
                   <ServicesIcon src={Icon3}/>
-                  <ServicesH2>INSURANCE</ServicesH2>
-                  <ServicesP>Wide coverage and affordable premium services for lifetime.</ServicesP>
+                  <ServicesH2>Spiderman</ServicesH2>
+                  <ServicesP>English</ServicesP>
               </ServicesCard>
               <ServicesCard>
                   <ServicesIcon src={Icon4}/>
-                  <ServicesH2>CREDIT CARDS</ServicesH2>
-                  <ServicesP>Use our attractive cards for the amazing Deals and Rewards.</ServicesP>
+                  <ServicesH2>Ring</ServicesH2>
+                  <ServicesP>Hindi</ServicesP>
               </ServicesCard>
               <ServicesCard>
                   <ServicesIcon src={Icon5}/>
-                  <ServicesH2>NO HIDDEN FEES</ServicesH2>
-                  <ServicesP>We don’t charge hidden fees to deposit or access the money.</ServicesP>
+                  <ServicesH2>8-Bit Christmas</ServicesH2>
+                  <ServicesP>English</ServicesP>
               </ServicesCard>
               <ServicesCard>
                   <ServicesIcon src={Icon6}/>
-                  <ServicesH2>MOBILE BANKING</ServicesH2>
-                  <ServicesP>You can acess our platform online anywhere in the world.</ServicesP>
+                  <ServicesH2>SpaceWalker</ServicesH2>
+                  <ServicesP>English</ServicesP>
               </ServicesCard>
            </ServicesWrapper>
         </ServicesContainer>
